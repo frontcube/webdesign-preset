@@ -1,0 +1,71 @@
+﻿!!!
+%html{:lang => "en"}
+  %head
+    / META
+    %meta{:charset => "utf-8"}
+    %title Untitled
+
+    %meta{:name => "description",               :content => "Description of the project."}
+    %meta{:name => "author",                    :content => "Aslam Najeebdeen"}
+    %meta{:name => "Copyright",                 :content => "Copyright FrontCube 2011. All Rights Reserved."}
+
+    %meta{:name => "DC.title",                  :content => "Project Name"}
+    %meta{:name => "DC.subject",                :content => "About the project"}
+    %meta{:name => "DC.creator",                :content => "Aslam Najeebdeen"}
+
+    %meta{:name => "google-site-verification",  :content => ""}
+
+    / CSS
+    %link{:rel => "stylesheet", :type => "text/css", :href => "stylesheets/print.css",   :media => "print"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "stylesheets/screen.css",  :media => "screen"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "stylesheets/main.css",    :media => "screen"}
+
+    / FAVICON
+    %link{:rel => "shortcut icon", :href => "/images/favicon.png"}
+  %body
+    #container
+      %header#page-header
+        #brand
+          %h1
+            %a Brand
+        %nav
+          %ul
+            %li
+              %a{:href => "#"} Nav
+            %li
+              %a{:href => "#"} Nav
+            %li
+              %a{:href => "#"} Nav
+            %li
+              %a{:href => "#"} Nav
+      /header#page-header
+
+      %section#content
+
+      /section#content
+
+      %footer#page-footer
+        %section#copywrite
+          &copy; 2011, Brand. All Rights Reserved.
+
+        %nav#footer-nav
+          %ul
+            %li
+              %a{:href => "#"} Nav
+            %li
+              %a{:href => "#"} Nav
+            %li
+              %a{:href => "#"} Nav
+        /nav#footer-nav
+
+      /footer#page-footer
+
+    /container
+
+
+    / JAVASCRIPT
+    %script{:type => "text/javascript", :src => "js/jquery-1.4.2.min.js"}
+    /TODO: Uncomment in PRODUCTION
+    / %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"}
+
+    %script{:type => "text/javascript", :src => "js/application.js"}
